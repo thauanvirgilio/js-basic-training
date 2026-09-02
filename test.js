@@ -5,6 +5,7 @@ const products = [
     { id: 3, name: 'Mouse', price: 90, active: true, category: 'pereferic' },
 ];
 
+
 const allProductsNames = products.map(product => product.name)
 
 // const allProductsNames = products.map(function (product) {
@@ -13,3 +14,12 @@ const allProductsNames = products.map(product => product.name)
 
 console.log(allProductsNames);
 
+
+
+const allActives = products.filter(product => product.active === true);
+
+// const allActives = products.filter(function (product){
+//     return product.active === true;
+// })
+
+console.log(allActives)
