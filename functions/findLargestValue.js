@@ -31,4 +31,23 @@ const findLargestValue = value => {
 
 document.getElementById("text").innerHTML = findLargestValue(values);
 
+// alternative version with object
+const products = [
+    { id: 1, name: 'Keyboard', price: 250, active: true, category: 'pereferic' },
+    { id: 2, name: 'Monitor', price: 1200, active: false, category: 'video' },
+    { id: 3, name: 'Mouse', price: 90, active: true, category: 'pereferic' },
+];
 
+var biggestProduct;
+var biggestPrice = 0;
+
+for (let i = 0; i < products.length; i++) {
+    let product = products[i]
+    if (product.price > biggestPrice) {
+        biggestPrice = product.price
+        biggestProduct = product.name
+    }
+}
+
+console.log(biggestProduct)
+console.log(biggestPrice)

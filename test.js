@@ -5,44 +5,4 @@ const products = [
     { id: 3, name: 'Mouse', price: 90, active: true, category: 'pereferic' },
 ];
 
-// all products filter
-const allProductsNames = products.map(function (product) {
-    return product.name;
-})
-//arrow
-// const allProductsNames = products.map(product => product.name);
 
-
-
-// all actives filter
-const allActives = products.filter(function (product) {
-    return product.active === true;
-})
-// arrow
-// const allActives = products.filter(product => product.active === true);
-
-
-
-// biggest value filter
-value = 0;
-for (const product of products) {
-    if (product.price > value) {
-        value = product.price
-    }
-}
-// with map (return index by index)
-const biggestValue = products.map(function (product) {
-    if (product.price > value) {
-        value = product.price
-    }
-    return value
-})
-
-
-
-// som of all prices
-const somOfPrices = products.reduce(function (accumulator, product) {
-    return accumulator + product.price;
-}, 0);
-
-// document.getElementById("text").innerHTML = ;
