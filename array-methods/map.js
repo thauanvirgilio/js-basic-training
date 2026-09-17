@@ -19,5 +19,16 @@ const allProductsNames = products.map(function (product) {
     return product.name;
 })
 
-//arrow version
+// arrow version
 // const allProductsNames = products.map(product => product.name);
+
+// other examples
+const tenPercentOff = products.map(function(product){
+    let discont = product.price * 0.10;
+    return product.price - discont;
+})
+
+const tenMostExpensive = products.map(function(product){
+    increase = product.price * 0.10;
+    return product.price + increase;
+})
