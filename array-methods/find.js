@@ -7,7 +7,7 @@ const products = [
 
 // search product by id with for
 let searchId
-for (i = 0; i < products.length; i++) {
+for (let i = 0; i < products.length; i++) {
     if (products[i].id === 2) {
         searchId = products[i].name
     }

@@ -1,9 +1,9 @@
-var weight;
-var height;
-var bmi;
-var classification;
+let weight;
+let height;
+let bmi;
+let classification;
 
-weight = 81.00;
+constweight = 81.00;
 height = 1.80;
 
 bmi = weight / (height * height);

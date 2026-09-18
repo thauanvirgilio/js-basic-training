@@ -1,4 +1,4 @@
-var a, b, c;
+let a, b, c;
 
 a = 1112;
 b = 323;
@@ -21,11 +21,11 @@ function checkLargestOfThree() {
 document.getElementById("text").innerHTML = checkLargestOfThree();
 
 
-var result
+let result
 
-var num1
-var num2
-var num3
+let num1
+let num2
+let num3
 
 num1 = 100000
 num2 = 50000

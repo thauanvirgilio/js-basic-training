@@ -1,5 +1,5 @@
-var grade;
-var conversion;
+let grade;
+let conversion;
 
 grade = 99;
 

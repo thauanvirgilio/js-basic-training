@@ -1,4 +1,4 @@
-var evenOrOdd;
+let evenOrOdd;
 
 evenOrOdd = 11;
 let result;

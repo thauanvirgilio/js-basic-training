@@ -4,10 +4,39 @@ const products = [
     { id: 3, name: 'Mouse', price: 90, active: true, category: 'pereferic' },
 ];
 
-// checks if something is true in array
+// checks if something price is true in array with for
+const exampleValue = 300;
+let valuesGreater;
+let isGreater = false
+
+for (let i = 0; i < products.length; i++) {
+    let product = products[i]
+
+    if (product.price > exampleValue) {
+        valuesGreater = product;
+        isGreater = true
+    }
+}
+// console.log(isGreater)
+
+
+// checks all price is true in array with for
+const valueLess = 6433
+let allLess = true;
+
+for (let i = 0; i < products.length; i++) {
+    if (products[i].price > valueLess) {
+        allLess = false
+    }
+}
+// console.log(allLess)
+
+
+// checks if something is true in array with some
 const priceGreater1000 = products.some(product => product.price > 1000)
 console.log(priceGreater1000)
 
-// checks if all is true in array
-const allPricesGreater1000 = products.every(product => product.price > 10)
-console.log(allPricesGreater1000)
+
+// checks if all is true in array with every
+const allPricesGreater10 = products.every(product => product.price > 10)
+console.log(allPricesGreater10)

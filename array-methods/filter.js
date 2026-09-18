@@ -6,7 +6,7 @@ const products = [
 ];
 
 // all actives filter with for
-allActivesList = [];
+let allActivesList = [];
 for (let i = 0; i < products.length; i++) {
     const product = products[i];
     if (product.active) {
@@ -18,7 +18,7 @@ console.log(allActivesList);
 
 // all actives with filter
 const allActives = products.filter(function (product) {
-    return product.active === true;
+    return product.active;
 })
 
 // arrow version

@@ -38,8 +38,8 @@ const products = [
     { id: 3, name: 'Mouse', price: 90, active: true, category: 'pereferic' },
 ];
 
-var biggestProduct;
-var biggestPrice = 0;
+let biggestProduct;
+const biggestPrice = 0;
 
 for (let i = 0; i < products.length; i++) {
     let product = products[i]

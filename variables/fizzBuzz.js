@@ -1,6 +1,6 @@
 // FizzBuzz exercise, checks if it is a multiple of 3 or 5
 
-var number;
+let number;
 number = 15;
 
 let result;

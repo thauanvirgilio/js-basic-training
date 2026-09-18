@@ -6,7 +6,7 @@ const products = [
 ];
 
 // som of all prices with for
-var somResult = 0;
+let somResult = 0;
 
 for (const product of products) {
     somResult = somResult + product.price

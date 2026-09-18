@@ -6,7 +6,7 @@ const products = [
 ];
 
 // all products with for
-allNames = [];
+let allNames = [];
 for (i = 0; i < products.length; i++) {
     let product = products[i]
     allNames.push(product.name)
@@ -29,6 +29,6 @@ const tenPercentOff = products.map(function(product){
 })
 
 const tenMostExpensive = products.map(function(product){
-    increase = product.price * 0.10;
+    let increase = product.price * 0.10;
     return product.price + increase;
 })
