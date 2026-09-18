@@ -3,7 +3,7 @@ let height;
 let bmi;
 let classification;
 
-constweight = 81.00;
+weight = 81.00;
 height = 1.80;
 
 bmi = weight / (height * height);

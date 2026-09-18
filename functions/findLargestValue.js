@@ -39,7 +39,7 @@ const products = [
 ];
 
 let biggestProduct;
-const biggestPrice = 0;
+let biggestPrice = 0;
 
 for (let i = 0; i < products.length; i++) {
     let product = products[i]
