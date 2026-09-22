@@ -45,10 +45,10 @@ let biggestProduct;
 let biggestPrice = 0;
 
 for (let i = 0; i < products.length; i++) {
-    let product = products[i]
+    let product = products[i];
     if (product.price > biggestPrice) {
-        biggestPrice = product.price
-        biggestProduct = product.name
+        biggestPrice = product.price;
+        biggestProduct = product.name;
     }
 }
 ```

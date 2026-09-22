@@ -1,7 +1,7 @@
 # Reversing a string with a loop
 
 ```js
-const word = "arara"
+const word = "arara";
 
 function reverseString(wordToReverse) {
     let reversedWord = "";

@@ -14,12 +14,12 @@ const products = [
 let searchResult
 for (let i = 0; i < products.length; i++) {
     if (products[i].id === 2) {
-        searchResult = products[i].name
+        searchResult = products[i].name;
     }
 }
 ```
 
 ## search product by id with find
 ```js
-const searchById = products.find(product => product.id === 2)
+const searchById = products.find(product => product.id === 2);
 ```

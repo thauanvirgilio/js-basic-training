@@ -20,29 +20,29 @@ for (let i = 0; i < products.length; i++) {
 
     if (product.price > exampleValue) {
         valuesGreater = product;
-        isGreater = true
+        isGreater = true;
     }
 }
 ```
 
 ## checks all price is true in array with for
 ```js
-const valueLess = 6433
+const valueLess = 6433;
 let allLess = true;
 
 for (let i = 0; i < products.length; i++) {
     if (products[i].price > valueLess) {
-        allLess = false
+        allLess = false;
     }
 }
 ```
 
 ## checks if something is true in array with some
 ```js
-const priceGreater1000 = products.some(product => product.price > 1000)
+const priceGreater1000 = products.some(product => product.price > 1000);
 ```
 
 ## checks if all is true in array with every
 ```js
-const allPricesGreater10 = products.every(product => product.price > 10)
+const allPricesGreater10 = products.every(product => product.price > 10);
 ```

@@ -14,7 +14,7 @@ const products = [
 let somResult = 0;
 
 for (const product of products) {
-    somResult = somResult + product.price
+    somResult = somResult + product.price;
 }
 ```
 

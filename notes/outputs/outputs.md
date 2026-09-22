@@ -30,7 +30,7 @@ console.log("fourth output type");
     <script src="./outputs.js"></script>
 
     <script>
-        document.write('Second output type with document write')
+        document.write('Second output type with document write');
     </script>
 </body>
 </html>

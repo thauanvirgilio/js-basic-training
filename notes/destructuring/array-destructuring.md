@@ -71,11 +71,11 @@ const products = [
     { id: 3, name: 'Mouse', price: 90, active: true, category: 'pereferic' },
 ];
 
-var [{id, name, ...rest}] = products
+var [{id, name, ...rest}] = products;
 
-console.log(id)
-console.log(name)
-console.log(rest) //{price: 250, active: true, category: 'pereferic'}
+console.log(id);
+console.log(name);
+console.log(rest); //{price: 250, active: true, category: 'pereferic'}
 ```
 
 ## destructuring with function
@@ -90,8 +90,8 @@ const product =
 };
 
 function getValidProducts({id, name, price}) {
-    console.log(id, name, price)
+    console.log(id, name, price);
 }
 
-getValidProducts(product)
+getValidProducts(product);
 ```

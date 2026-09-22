@@ -13,8 +13,8 @@ const products = [
 ```js
 let allNames = [];
 for (i = 0; i < products.length; i++) {
-    let product = products[i]
-    allNames.push(product.name)
+    let product = products[i];
+    allNames.push(product.name);
 }
 
 ```

@@ -9,7 +9,7 @@ function filterEven(numbersToCheck) {
 
     for (let i = 0; i < numbersToCheck.length; i++){
         if (numbersToCheck[i] % 2 === 0){
-            evenNumbers.push(numbersToCheck[i])
+            evenNumbers.push(numbersToCheck[i]);
         }
     }
 

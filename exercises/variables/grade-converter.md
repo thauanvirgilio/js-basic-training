@@ -8,14 +8,14 @@ grade = 99;
 
 
 if (grade >= 90) {
-    conversion = "A"
+    conversion = "A";
 } else if (grade >= 80) {
-    conversion = "B"
+    conversion = "B";
 } else if (grade >= 70) {
-    conversion = "C"
+    conversion = "C";
 } else if (grade >= 60) {
-    conversion = "D"
+    conversion = "D";
 } else {
-    conversion = "F"
+    conversion = "F";
 }
 ```
