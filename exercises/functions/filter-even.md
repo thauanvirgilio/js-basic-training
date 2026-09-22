@@ -15,5 +15,4 @@ function filterEven(numbersToCheck) {
 
     return evenNumbers;
 }
-
 ```

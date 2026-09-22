@@ -12,6 +12,4 @@ function reverseString(wordToReverse) {
 
     return reversedWord;
 }
-
-document.getElementById("text").innerHTML = reverseString(word);
 ```

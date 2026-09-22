@@ -12,6 +12,4 @@ function sumArray(valuesToSum) {
 
     return sumResult;
 }
-
-document.getElementById("text").innerHTML = sumArray(numbers);
 ```
