@@ -1,10 +1,12 @@
+# Finding the largest value in an array
+
+```js
 const values = [2000, 269, 10000, 931, 15067, 4009];
 
 function findLargestValue(value) {
     let largestValue = 0;
 
     for (let i = 0; i < value.length; i++) {
-        console.log(value[i]);
         if (value[i] > largestValue) {
             largestValue = value[i];
         }
@@ -13,13 +15,14 @@ function findLargestValue(value) {
 
     return largestValue;
 }
+```
 
-// arrow
+## arrow
+```js
 const findLargestValue = value => {
     let largestValue = 0;
 
     for (let i = 0; i < value.length; i++) {
-        console.log(value[i]);
         if (value[i] > largestValue) {
             largestValue = value[i];
         }
@@ -28,10 +31,10 @@ const findLargestValue = value => {
 
     return largestValue;
 }
+```
 
-document.getElementById("text").innerHTML = findLargestValue(values);
-
-// alternative version with object
+## alternative version with object
+```js
 const products = [
     { id: 1, name: 'Keyboard', price: 250, active: true, category: 'pereferic' },
     { id: 2, name: 'Monitor', price: 1200, active: false, category: 'video' },
@@ -48,6 +51,4 @@ for (let i = 0; i < products.length; i++) {
         biggestProduct = product.name
     }
 }
-
-console.log(biggestProduct)
-console.log(biggestPrice)
+```

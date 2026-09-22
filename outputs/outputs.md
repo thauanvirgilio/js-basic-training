@@ -1,3 +1,13 @@
+# Four ways to show output in the browser
+
+```js
+document.getElementById("firstOutput").innerHTML = "First output type with getElementById";
+// also accepts numbers
+alert('third output type with alert');
+console.log("fourth output type");
+```
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,3 +34,4 @@
     </script>
 </body>
 </html>
+```

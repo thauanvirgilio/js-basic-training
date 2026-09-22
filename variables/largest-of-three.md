@@ -1,3 +1,6 @@
+# Finding the largest of three values
+
+```js
 let a, b, c;
 
 a = 1112;
@@ -18,11 +21,8 @@ function checkLargestOfThree() {
     return result;
 }
 
-document.getElementById("text").innerHTML = checkLargestOfThree();
-
-
+// not function, same result
 let result
-
 let num1
 let num2
 let num3
@@ -38,5 +38,4 @@ if (num1 >= num2 && num1 >= num3) {
 } else {
     result = num3
 }
-
-alert(result)
+```

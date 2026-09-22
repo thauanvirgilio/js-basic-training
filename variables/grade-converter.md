@@ -1,3 +1,6 @@
+# Converting a numeric grade into a letter
+
+```js
 let grade;
 let conversion;
 
@@ -15,5 +18,4 @@ if (grade >= 90) {
 } else {
     conversion = "F"
 }
-
-alert(conversion);
+```

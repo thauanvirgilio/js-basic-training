@@ -1,3 +1,6 @@
+# Checking if a number is even or odd
+
+```js
 let evenOrOdd;
 
 evenOrOdd = 11;
@@ -8,5 +11,4 @@ if (evenOrOdd % 2 == 0) {
 } else {
     result = "The number is odd!"
 }
-
-document.getElementById("text").innerHTML = result
+```

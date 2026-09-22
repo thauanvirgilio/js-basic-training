@@ -1,5 +1,6 @@
-// FizzBuzz exercise, checks if it is a multiple of 3 or 5
+# Checking if a number is a multiple of 3 or 5
 
+```js
 let number;
 number = 15;
 
@@ -14,6 +15,4 @@ if (number % 3 == 0 && number % 5 == 0) {
 } else {
     result = number;
 }
-
-
-document.getElementById("text").innerHTML = result;
+```

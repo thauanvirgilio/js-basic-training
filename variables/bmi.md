@@ -1,3 +1,6 @@
+# Calculating BMI and classifying the result
+
+```js
 let weight;
 let height;
 let bmi;
@@ -8,8 +11,6 @@ height = 1.80;
 
 bmi = weight / (height * height);
 
-console.log(bmi);
-
 if (bmi <= 18.5) {
     classification = "Underweight";
 } else if (bmi >= 18.5 && bmi <= 24.9) {
@@ -19,5 +20,4 @@ if (bmi <= 18.5) {
 } else if (bmi >= 30) {
     classification = "Obese";
 }
-
-document.getElementById("text").innerHTML = classification;
+```

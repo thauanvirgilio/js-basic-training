@@ -1,3 +1,6 @@
+# Reversing a string with a loop
+
+```js
 const word = "arara"
 
 function reverseString(wordToReverse) {
@@ -11,3 +14,4 @@ function reverseString(wordToReverse) {
 }
 
 document.getElementById("text").innerHTML = reverseString(word);
+```

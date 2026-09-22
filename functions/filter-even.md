@@ -1,3 +1,7 @@
+# Filtering the even numbers from an array
+Exercise creating a function that checks which numbers are even.
+
+```js
 const numbers = [67, 11, 22, 13, 79, 48, 4, 88];
 
 function filterEven(numbersToCheck) {
@@ -12,4 +16,4 @@ function filterEven(numbersToCheck) {
     return evenNumbers;
 }
 
-document.getElementById("text").innerHTML = filterEven(numbers);
+```

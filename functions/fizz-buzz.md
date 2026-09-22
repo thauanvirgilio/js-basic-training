@@ -1,3 +1,6 @@
+# Building FizzBuzz from 1 to 100 with a function
+
+```js
 function fizzBuzz() {
     const numbers = [];
 
@@ -15,5 +18,4 @@ function fizzBuzz() {
 
     return numbers;
 }
-
-document.getElementById('text').innerHTML = fizzBuzz()
+```

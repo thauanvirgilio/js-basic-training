@@ -1,3 +1,6 @@
+# Summing the values of an array
+
+```js
 const numbers = [20, 35, 88, 143, 571];
 
 function sumArray(valuesToSum) {
@@ -11,3 +14,4 @@ function sumArray(valuesToSum) {
 }
 
 document.getElementById("text").innerHTML = sumArray(numbers);
+```
