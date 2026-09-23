@@ -33,6 +33,11 @@ Each of these compares the manual `for` version with the method version.
 |---|---|
 | [Destructuring arrays, objects and function parameters](notes/destructuring/array-destructuring.md) | arrays, objects, rest, swapping |
 
+### Optional chaining
+| Note | |
+|---|---|
+| [Optional chaining in object](notes/optional-chaining/optional.md) | object, optional chaining |
+
 ### Objects
 
 | Note | |
