@@ -25,6 +25,7 @@ Each of these compares the manual `for` version with the method version.
 | [Filtering an array of objects by a condition](notes/array-methods/filter.md) | `filter` |
 | [Searching for a product by id](notes/array-methods/find.md) | `find` |
 | [Summing all prices with an accumulator](notes/array-methods/reduce.md) | `reduce` |
+| [Group by category](notes/array-methods/reduce.md) | `reduce` |
 | [Checking if one or all items match a condition](notes/array-methods/some-and-every.md) | `some`, `every` |
 
 ### Destructuring
