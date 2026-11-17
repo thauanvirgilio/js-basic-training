@@ -6,7 +6,6 @@ let conversion;
 
 grade = 99;
 
-
 if (grade >= 90) {
     conversion = "A";
 } else if (grade >= 80) {

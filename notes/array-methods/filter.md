@@ -27,5 +27,5 @@ const allActives = products.filter(function (product) {
 })
 
 // arrow version
-const allActives = products.filter(product => product.active === true);
+const allActives = products.filter(product => product.active);
 ```

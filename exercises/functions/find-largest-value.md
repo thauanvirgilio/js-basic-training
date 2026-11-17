@@ -10,7 +10,6 @@ function findLargestValue(value) {
         if (value[i] > largestValue) {
             largestValue = value[i];
         }
-
     }
 
     return largestValue;
@@ -26,7 +25,6 @@ const findLargestValue = value => {
         if (value[i] > largestValue) {
             largestValue = value[i];
         }
-
     }
 
     return largestValue;
