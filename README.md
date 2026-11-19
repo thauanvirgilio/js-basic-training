@@ -34,6 +34,12 @@ Each of these compares the manual `for` version with the method version.
 |---|---|
 | [Destructuring arrays, objects and function parameters](notes/destructuring/array-destructuring.md) | arrays, objects, rest, swapping |
 
+### Nullish coalescing
+
+| Note | |
+|---|---|
+| [Using nullish coalescing in variable](notes/nullish-coalescing/nullish-coalescing.md) | If the left is not null, return it; otherwise, return the right. |
+
 ### Optional chaining
 | Note | |
 |---|---|
