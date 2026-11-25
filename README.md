@@ -34,6 +34,11 @@ Each of these compares the manual `for` version with the method version.
 |---|---|
 | [Destructuring arrays, objects and function parameters](notes/destructuring/array-destructuring.md) | arrays, objects, rest, swapping |
 
+### Functional programing
+| Note | |
+|---|---|
+| [Immutability with objects](notes/functional-programming/immutability.md) | immutability of simple and nested objects |
+
 ### Nullish coalescing
 
 | Note | |
